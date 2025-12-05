@@ -48,7 +48,7 @@ This runbook documents a console-first deployment of a 3-tier VPC:
 
 **WHY:** Hosts NAT gateway and any public-facing endpoints.
 
-![](images/subnets-public.png)
+![GG](images/subnets-public.png)
 
 ---
 
