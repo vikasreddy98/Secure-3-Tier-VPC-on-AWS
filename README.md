@@ -46,7 +46,7 @@ Secure-3-Tier-VPC-on-AWS/
 ```
 ---
 
-##  What I built (evidence)
+##  What I built
 - VPC and subnets (public/app/db) across 2 AZs.
 - Internet Gateway + Public route table.
 - NAT Gateway + Private route table for app subnets.
