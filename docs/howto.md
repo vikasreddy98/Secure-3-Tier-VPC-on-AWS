@@ -7,14 +7,14 @@ This runbook documents a console-first deployment of a 3-tier VPC:
 - SSM Session Manager access (no SSH keys)
 - Security groups, route tables, IGW, NAT
 
-**Region used in examples:** `ap-south-1` (Mumbai) — adapt if you choose another region.
+**Region used in examples:** `us-east-1` (N.Virginia) — adapt if you choose another region.
 
 ---
 
 ## Project CIDR plan (recommended)
 - VPC: `10.0.0.0/16`
-- public-az1: `10.0.1.0/24` (ap-south-1a)
-- public-az2: `10.0.2.0/24` (ap-south-1b)
+- public-az1: `10.0.1.0/24` (us-east-1a)
+- public-az2: `10.0.2.0/24` (us-east-1b)
 - private-app-az1: `10.0.10.0/24`
 - private-app-az2: `10.0.11.0/24`
 - private-db-az1: `10.0.20.0/24`
@@ -27,15 +27,13 @@ This runbook documents a console-first deployment of a 3-tier VPC:
 ### Step 1 — Create the VPC
 1. Console → VPC → **Your VPCs** → **Create VPC**
 2. Type: **VPC only**
-3. Name: `projB-vpc`  
+3. Name: `projectB-vpc`  
    IPv4 CIDR: `10.0.0.0/16`  
    Tenancy: Default
 4. Create.
 
 **WHY:** Foundation of the network — isolates resources from other AWS accounts.
-
-📸 Screenshot placeholder: `images/vpc-create.png` (show name + CIDR)
-
+![](images/vpc-create.png)
 ---
 
 ### Step 2 — Create Public Subnets (AZ explicit)
@@ -235,6 +233,7 @@ Expected: interactive shell
 ```bash
 curl -I https://amazon.com
 
+```
 Expected: HTTP response or 301 redirect.
 
 📸 Screenshot placeholder: images/nat-test.png
