@@ -2,7 +2,7 @@ Follow these steps in order to safely remove resources and avoid dependency or b
 
 ---
 
-## ⚠ Important
+## Important
 - Delete the **NAT Gateway** early to stop hourly charges.
 - Terminate EC2 instances before removing subnets.
 - If you created VPC Interface Endpoints (SSM etc.), delete them before route tables.
