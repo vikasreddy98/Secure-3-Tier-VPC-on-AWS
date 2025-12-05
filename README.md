@@ -74,6 +74,9 @@ See ![howto.md](https://github.com/vikasreddy98/Secure-3-Tier-VPC-on-AWS/blob/34
 
 ---
 
-## 📧 Contact
-Your Name — LinkedIn — Email
+##  Contact
+
+Your Name  
+- LinkedIn: *www.linkedin.com/in/raghu-vikas-reddy-yadavalli-3b23a41ab*  
+- Email: *reddy.vikas8987@gmail.com*
 
