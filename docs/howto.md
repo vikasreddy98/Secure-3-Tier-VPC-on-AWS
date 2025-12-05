@@ -11,7 +11,7 @@ This runbook documents a console-first deployment of a 3-tier VPC:
 
 ---
 
-## Project CIDR plan (recommended)
+## Project CIDR plan 
 - VPC: `10.0.0.0/16`
 - public-az1: `10.0.1.0/24` (us-east-1a)
 - public-az2: `10.0.2.0/24` (us-east-1b)
@@ -40,15 +40,15 @@ This runbook documents a console-first deployment of a 3-tier VPC:
 
 ### Step 2 — Create Public Subnets (AZ explicit)
 1. VPC → Subnets → Create Subnet
-   - VPC: `projB-vpc`
+   - VPC: `projectB-vpc`
    - Name: `public-az1`
-   - AZ: `ap-south-1a`
+   - AZ: `us-east-1a`
    - CIDR: `10.0.1.0/24`
-2. Repeat for `public-az2` in `ap-south-1b` CIDR `10.0.2.0/24`.
+2. Repeat for `public-az2` in `us-east-1b` CIDR `10.0.2.0/24`.
 
 **WHY:** Hosts NAT gateway and any public-facing endpoints.
 
-📸 Screenshot placeholder: `images/subnets-public.png`
+![](images/subnets-public.png)
 
 ---
 
