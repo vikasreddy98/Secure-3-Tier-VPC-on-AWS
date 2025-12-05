@@ -54,7 +54,7 @@ project/
 - Security groups with SG-to-SG rules.
 - SSM role & usage for secure instance access.
 
-See ![](https://github.com/vikasreddy98/Secure-3-Tier-VPC-on-AWS/blob/34c2c3ec3f710b686b3c998e7753f1d5d866166f/docs/howto.md) for console steps and `![](https://github.com/vikasreddy98/Secure-3-Tier-VPC-on-AWS/blob/34c2c3ec3f710b686b3c998e7753f1d5d866166f/docs/cleanup.md)` for safe deletion sequence.
+See ![](https://github.com/vikasreddy98/Secure-3-Tier-VPC-on-AWS/blob/34c2c3ec3f710b686b3c998e7753f1d5d866166f/docs/howto.md) for console steps and ![](https://github.com/vikasreddy98/Secure-3-Tier-VPC-on-AWS/blob/34c2c3ec3f710b686b3c998e7753f1d5d866166f/docs/cleanup.md) for safe deletion sequence.
 
 ---
 
