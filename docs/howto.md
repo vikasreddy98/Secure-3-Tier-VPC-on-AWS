@@ -33,7 +33,9 @@ This runbook documents a console-first deployment of a 3-tier VPC:
 4. Create.
 
 **WHY:** Foundation of the network — isolates resources from other AWS accounts.
-![](images/vpc-create.png)
+
+![](https://github.com/vikasreddy98/Secure-3-Tier-VPC-on-AWS/blob/1010c2d7ea6f63a633570b2ecb31420b1bf86004/images/vpc-create.png)
+
 ---
 
 ### Step 2 — Create Public Subnets (AZ explicit)
