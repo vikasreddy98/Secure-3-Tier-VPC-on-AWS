@@ -240,4 +240,4 @@ Expected: HTTP response or 301 redirect.
 
 ![](https://github.com/vikasreddy98/Secure-3-Tier-VPC-on-AWS/blob/9c0e8e6d442d61b931e6ab65286b0f1b285ee4b1/images/nat-test.png)
 
-***End of HowTo***
+**End of HowTo**
