@@ -17,7 +17,7 @@
 ##  Repo structure
 
 ```
-project/
+project/Secure-3-Tier-VPC-on-AWS
 ├── docs/
 │   ├── cleanup.md
 │   └── howto.md
